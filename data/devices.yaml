@@ -1,0 +1,29 @@
+- id: 1
+  ip_address:
+  name: r1
+  os: iosxe
+  hostname: r1.lab.local
+  vendor: cisco
+
+- id: 2
+  ip_address: 1.1.1.1
+  name: r2
+  os: nxos
+  hostname: r2.lab.local
+  vendor: cisco
+
+
+- id: 3
+  ip_address: 2.2.2.2
+  name: r3
+  os: eos
+  hostname: r3.lab.local
+  vendor: arista
+
+  
+- id: 4
+  ip_address: 3.3.3.3
+  name: Switch4
+  os: eos
+  hostname: Switch4.lab.local
+  vendor: arista
